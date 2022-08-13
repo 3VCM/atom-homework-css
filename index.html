@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link href="https://fonts.googleapis.com/css2?family=Exo+2:ital,wght@0,200;0,300;0,500;0,800;1,200;1,300;1,500;1,800&display=swap"
+          rel="stylesheet">
+    <title>Title</title>
+    <style>
+        * {
+            font-family: 'Exo 2', sans-serif;
+        }
+
+        .weird-green {
+            color: #578d05;
+        }
+
+        .weird-green-background {
+            background: #578d05;
+        }
+
+        .weird-blue {
+            color: #1b51ff;
+        }
+
+        .weird-blue-background {
+            background: #1b51ff;
+        }
+
+        .weird-orange {
+            color: #ffa501;
+        }
+
+        .weird-orange-background {
+            background: #ffa501;
+        }
+
+        .bold {
+            font-weight: bold;
+        }
+
+        .page-heading {
+            text-align: center;
+            margin: 4rem;
+        }
+
+        .cards-container {
+            display: flex;
+            align-items: center;
+            justify-content: space-around;
+            gap: 5rem;
+        }
+
+        .card {
+            background: #f3fdff;
+            border: solid #eaf2fa 3px;
+            border-radius: 20px;
+            padding: 1rem;
+            min-width: 20%;
+        }
+
+        .card-heading {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 20px;
+            margin: 1rem 0;
+        }
+
+        .money-block {
+            background: white;
+            padding: 1.75rem 2rem;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+            border-radius: 20px;
+            border: solid #eaf2fa 3px;
+        }
+
+        .money-amount {
+            font-size: 35px;
+        }
+
+        .button {
+            padding: 1rem;
+            color: white;
+            margin: 1rem 0;
+            border-radius: 10px;
+            width: 100%;
+            border: solid 0;
+            font-size: 15px;
+            cursor: pointer;
+        }
+
+        .text-block {
+            display: flex;
+            flex-direction: column;
+            gap: 1.5rem;
+            padding: 1rem;
+
+        }
+
+        .text-block-heading {
+            font-weight: bolder;
+        }
+
+        .rock-bottom {
+            background: #eaf2fa;
+            padding: 1rem;
+            margin: 5rem 0 0 0;
+            border-radius: 10px;
+            width: 15%;
+            border: solid 0;
+            font-size: 15px;
+            cursor: pointer;
+        }
+
+        .page-container {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+        }
+    </style>
+</head>
+<body>
+<div class="page-container">
+    <div class="page-heading">
+        <h1>Купите нашу подписку!</h1>
+        <h3>Вы удивитесь, как мало мы можем вам предложить!</h3>
+    </div>
+    <div class="cards-container">
+
+        <div class="card">
+            <span class=" card-heading weird-green">FREE:</span>
+            <div class="money-block">
+                <span class="money-amount bold weird-green">0$</span>
+                <button class="button weird-green-background">Активировать</button>
+            </div>
+            <div class="text-block">
+                <span class=" text-block-heading weird-green">FREE ПЛАН</span>
+                <span class="main-text weird-green">✅ Вы всё делаете сами! 😍</span>
+                <span class="main-text weird-green">✅ Вам будет что кушать! 🍔</span>
+                <span class="main-text weird-green">🚫 У вас ничего не получится! 😧</span>
+                <span class="main-text weird-green">🚫 Мы не скажем вам "Спасибо" 😭</span>
+            </div>
+        </div>
+
+        <div class="card">
+            <span class=" card-heading weird-blue">FREE:</span>
+            <div class="money-block">
+                <span class="money-amount bold weird-blue">0$</span>
+                <button class="button weird-blue-background">Активировать</button>
+            </div>
+            <div class="text-block">
+                <span class=" text-block-heading weird-blue">FREE ПЛАН</span>
+                <span class="main-text weird-blue">✅ Вы всё делаете сами! 😍</span>
+                <span class="main-text weird-blue">✅ У вас всё получится! 😎</span>
+                <span class="main-text weird-blue">✅ Мы скажем Вам "Спасибо" 🤝</span>
+                <span class="main-text weird-blue">🚫 Будет сложно! 🤔</span>
+            </div>
+        </div>
+
+        <div class="card">
+            <span class=" card-heading weird-orange">FREE:</span>
+            <div class="money-block">
+                <span class="money-amount bold weird-orange">0$</span>
+                <button class="button weird-orange-background">Активировать</button>
+            </div>
+            <div class="text-block">
+                <span class=" text-block-heading weird-orange">FREE ПЛАН</span>
+                <span class="main-text weird-orange">✅ Мы всё сделаем за Вас! 😍</span>
+                <span class="main-text weird-orange">✅ У вас всё получится! 😎</span>
+                <span class="main-text weird-orange">✅ Мы скажем Вам "Спасибо" 😘</span>
+                <span class="main-text weird-orange">✅ Сложно не будет! 😃</span>
+            </div>
+        </div>
+
+
+    </div>
+    <button class="rock-bottom">Сравнить Планы</button>
+</div>
+
+
+</body>
+</html>
